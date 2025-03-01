@@ -1,0 +1,136 @@
+/*****
+title: Nykaa Global Typography
+author: ui team
+version: 1.0.0
+*****/
+
+/*Desktop*/
+.title-xlarge {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+.title-large {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+.title-medium {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+.title-small {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+}
+.title-xsmall {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+}
+.subtitle-large {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+}
+.subtitle-medium {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+}
+.subtitle-small {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+.body-large {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.body-medium {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.body-small {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.body-xsmall {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}
+.button-large {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
+.button-medium {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
+.button-small {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
+.label-medium {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+.label-small {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+}
+
+/*Mobile*/
+@media screen and (max-width: 767px) {
+  .title-xlarge {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .title-large {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .title-medium {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+  }
+  .title-small {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+  .title-xsmall {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+}
