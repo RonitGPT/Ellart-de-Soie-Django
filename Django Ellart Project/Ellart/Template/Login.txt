@@ -1,0 +1,30 @@
+<div class="container" >
+        <div class="row">
+            <div class="col-md-4 shadow mt-5 p-5 mx-auto">
+                <h1>Login Form</h1>
+                {% if error_msg %}
+                <div class="alert alert-danger">
+                    {{ error_msg }}
+                </div>
+                {% endif %}
+                <form method="POST" action="">
+                    {% csrf_token %}
+                <div class="mb-3">  <!---Username -->
+                    <label for="Input1" class="form-label">Username</label>
+                    <input type="text" class="form-control" name="Username" id="Input1" placeholder="Enter your Name">
+                </div>
+
+                <div class="mb-3">  <!---Password -->
+                    <label for="Input2" class="form-label">Password</label>
+                    <input type="password" class="form-control" name="Password" id="Input2" placeholder="Enter Password">
+                </div>
+
+                <div class="mb-3">  <!---Submit -->
+                    <input type="submit" class="btn btn-danger" value="Login">
+                    Not a User ? <a href="/register" style="text-decoration: none;"> Register</a>
+                </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>   
